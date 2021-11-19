@@ -1,0 +1,344 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color:#284B63;
+    height: 55px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+main {
+    background-color: #FFFFFF;
+}
+
+header .logo {
+    margin-left: 100px ;
+}
+
+.logo img {
+    width: 148px;
+}
+
+.header-nav {
+    display: flex;
+    align-content: center;
+    color: white;
+    margin-right: 110px;
+}
+
+.white {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+}
+
+/*---------------------*/
+
+main {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+main p {
+    font-family: Arial, sans-serif;
+    font-weight: regular;
+    font-size: 20px;
+
+}
+
+
+.intro {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 89px;
+    font-family: Arial, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    /* z-index: 0; */
+}
+
+.intro p {
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: medium;
+    color:black;
+}
+
+.first-title {
+    margin-top: 90px;
+}
+
+.blueberries {
+    margin-top: 56px;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+    position: relative; 
+    z-index: 1; 
+  
+}
+
+/*--------------------*/
+
+.first-bloc p {
+    margin-right: 35px;
+    margin-left: 65px;
+}
+
+
+.first-bloc {
+    height: 295px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: raw;
+    align-items: center;
+    position: relative; 
+    top: -12px;
+    z-index: 0;
+
+}
+
+
+.first-bloc img {
+    width: 360px;
+    height: auto;
+    margin-left: 35px;
+    margin-right: 64px;
+}
+
+.second-bloc p {
+    margin-right: 35px;
+    margin-left: 65px;
+}
+
+
+.second-bloc img {
+    width: 360px;
+    height: auto;
+    margin-left: 35px;
+    margin-right: 64px;
+}
+
+.second-bloc {
+    height: 340px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: raw;
+    align-items: center;
+    position: relative; 
+    top: -12px;
+    z-index: 0;
+
+}
+
+.many-more {
+    text-align: center;
+    margin-top: 102px;
+}
+
+.bold {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.grey {
+    margin-top: 24px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    color: #6E757C;
+
+}
+
+.repeat-pics { 
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 125px;
+    justify-content: center;
+}
+
+.box-pics {
+    justify-content: center;
+}
+
+
+
+/*---------------------*/
+
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 55px;
+    margin-right: 48px;
+    height: 170px;
+}
+
+.link img {
+    width: 148px;
+    margin-top: 85px;
+}
+
+button{
+    margin-top: 85px;
+}
+
+.footer-nav {
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.collections {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 85px;
+}
+
+.bakery {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 85px;
+}
+
+.blue {
+    color: blue;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: medium;
+}
+
+.copyright {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: medium;
+}
+.social img {
+    height: 35px;
+    width: 35px;
+}
+
+.social {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 48px;
+    margin-right: 54px;
+    height: 90px;
+}
+
+
+.reseau {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer {
+    background-color: #FFFFFF;
+}
+
+/*---------------------*/
+
+
+@media  screen and (max-width: 750px) {
+    h1 {
+        width: 95vw;
+        height: auto;
+    }
+
+    .intro {
+        width: 95vw;
+        height: auto;
+        }
+    
+    
+    .first-bloc {
+        height: auto;
+        width: 98vw;
+        background-color: #F5F5F5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative; 
+        top: -12px;
+        z-index: 0;
+    
+    }
+    
+    
+    .first-bloc img {
+        width: 95vw;
+        height: auto;
+        /* margin-left: 35px; */
+    
+    }
+
+    .first-bloc p {
+        width: 95vw;
+        height: auto;
+        /* margin-right: 35px; */
+        /*margin-left: 65px; */
+        margin-top: 30px;
+    }
+
+    .second-bloc img {
+        width: 95vw;
+        height: auto;
+        /* margin-left: 35px; */
+        
+    }
+    
+    .second-bloc {
+        height: 500px;
+        background-color: #F5F5F5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative; 
+        top: -12px;
+        z-index: 0;
+    
+    }
+
+    .second-bloc p {
+        width: 95vw;
+        height: auto;
+        /* margin-right: 35px;
+        margin-left: 65px; */
+    }
+
+    h2 {
+        font-family: Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        /* margin-left: 35px; */
+        position: relative; 
+        z-index: 1; 
+        width: 95vw;
+        height: auto;
+    }
+
+
+}
+    

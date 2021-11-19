@@ -1,0 +1,424 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color:#284B63;
+    height: 55px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+main {
+    background-color: #FFFFFF;
+}
+
+header .logo {
+    margin-left: 100px ;
+}
+
+.classee {
+    color: white;
+    text-decoration: none;
+}
+
+.classee:hover {
+    color: yellow;
+}
+
+.logo img {
+    width: 148px;
+}
+
+.header-nav {
+    display: flex;
+    align-content: center;
+    color: white;
+    margin-right: 110px;
+}
+
+.white {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+}
+
+/*---------------------*/
+
+.intro {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 89px;
+    font-family: Arial, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.intro p {
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: medium;
+}
+
+/*---------------------*/
+
+
+.grey {
+    font-family: Arial, sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+    color: #6F767D;
+}
+
+.black {
+    font-family: Arial, sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    color: black;
+}
+
+
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/* .brand {
+    height: 755px;
+} */
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 108px;
+}
+
+.text-presentation {
+    margin-left: 48px;
+    margin-right: 30px;
+    width: 45vw;
+    height: auto;
+
+}
+
+.img-cream img {
+    margin-right: 0px;
+    margin-left: 30px;
+    width: 45vw;
+    height: auto;
+}
+
+/*---------------------*/
+
+.newsletter {
+    margin-top: 102px;
+    background-color: #F5F5F5;
+    height: 184px;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+
+}
+
+button {
+    display: inline-block;
+    background-color: #FDF3DB;
+    border-radius: 8px;
+    border: 2px solid #F2CB6C;
+    color: black;
+    text-align: center;
+    white-space: nowrap;
+    font-family:Arial, sans-serif;
+    font-size: 16px;
+    margin: 10px 10px;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    }
+
+/*---------------------*/
+
+
+h2 {
+    margin-top: 96px;
+    margin-left: 48px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.specialities {
+    display: flex;
+    flex-direction: row;
+    height: 444px;
+
+}
+
+.unavoidable {
+    margin-left: 48px;
+}
+
+.unavoidable .grey {
+    margin-right: 96px;
+    margin-bottom: 26px;
+    width: 45vw;
+    height: auto;
+}
+
+.unavoidable img {
+    margin-top: 35px;
+    width: 184px;
+    border-radius: 50%;
+}
+
+.amazing img {
+    margin-top: 35px;
+    width: 184px;
+    border-radius: 50%;
+}
+
+.amazing .grey {
+    margin-right: 145px;
+    margin-bottom: 26px;
+    width: 45vw;
+    height: auto;
+
+}
+
+h4 {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+     
+/*---------------------*/
+
+h5 {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.avis {
+    margin-top: 65px;
+    background-color:#F5F5F5;
+    height: 455px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-avis {
+    margin-left: 92px;
+    margin-right: 30px;
+
+}
+
+.image-avis img {
+    width: 45vw;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+cite {
+    font-family: Arial, sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*--------------------------*/
+
+
+
+h6 {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+
+}
+
+/*--------------------------*/
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 55px;
+    margin-right: 48px;
+    height: 170px;
+}
+
+.link img {
+    width: 148px;
+    /* margin-top: 85px; */
+}
+
+/* button{
+    margin-top: 85px;
+} */
+
+.footer-nav {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.collections {
+    margin-right: 20px;
+    margin-left: 20px;
+    flex-flow: nowrap;
+    /* margin-top: 85px; */
+}
+
+.bakery {
+    margin-right: 20px;
+    margin-left: 20px;
+    /* margin-top: 85px; */
+}
+
+.blue {
+    color: blue;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: medium;
+}
+
+
+
+.copyright {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: medium;
+}
+
+
+.social img {
+    height: 35px;
+    width: 35px;
+}
+
+.social {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 48px;
+    margin-right: 54px;
+    height: 90px;
+}
+
+
+.reseau {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer {
+    background-color: #FFFFFF;
+}
+
+/*--------------------------*/
+
+/* @media  screen and (max-width: 900px) {
+    .presentation {
+        /* width: auto;
+        height: 30vh; */
+        /* display: flex;
+        flex-direction: row;
+        align-items: center; */
+
+    /* }
+
+    .img-cream img {
+        width: auto;
+        height: 30vh; }
+
+} */ 
+
+@media  screen and (max-width: 750px) {
+    .presentation {
+        display: flex;
+        flex-direction: column;
+        margin-top: 108px;
+
+        }
+
+    .text-presentation {
+        margin-left: 48px;
+        margin-right: 30px;
+        width: 95vw;
+        height: auto;
+    }
+
+    .img-cream img {
+        width: 95vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    .newsletter {
+        padding: 95px;
+        }
+
+    .specialities {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        }
+
+    .amazing {
+        margin-left: 48px;
+    }
+
+    .avis {
+        display: flex;
+        flex-direction: column;
+        margin-top: 65px;
+        background-color:#F5F5F5;
+        height: 600px;
+        align-items: center;
+
+        }
+
+        .image-avis img {
+            width: 85vw;
+            height: auto;
+        }
+            
+}
